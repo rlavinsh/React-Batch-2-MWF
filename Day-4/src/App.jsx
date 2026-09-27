@@ -1,13 +1,18 @@
 import React from "react";
-
+import Card from "./components/Card";
 const App = () => {
-  function Greet() {
-    console.log("Hello React");
-  }
   return (
-    <div>
-      <h1>Hello React</h1>
-      <Greet />
+    <div className="parent">
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 };

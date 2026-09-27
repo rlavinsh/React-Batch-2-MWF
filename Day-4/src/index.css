@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: white;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  /* border: 2px solid white; */
+  margin: 10px;
+  padding: 15px;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.card h2,
+p {
+  padding-top: 10px;
+}
+
+.btn {
+  height: 50px;
+  font-size: 24px;
+  background-color: orange;
+  font-weight: bold;
+  /* color: white; */
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
