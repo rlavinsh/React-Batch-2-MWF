@@ -1,6 +1,8 @@
 import React from "react";
 
-const Card1 = () => {
+const Card1 = (props) => {
+  // console.log(props.greet);
+
   const name = "Ritik";
   const profile = "Frontend developer";
 
@@ -12,7 +14,9 @@ const Card1 = () => {
       />
       <h2>{name}</h2>
       <p>{profile}</p>
-      <button className="btn">View Profile</button>
+      <button className="btn" onClick={() => props.greet(name)}>
+        View Profile
+      </button>
     </div>
   );
 };
