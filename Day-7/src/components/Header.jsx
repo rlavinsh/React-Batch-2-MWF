@@ -1,10 +1,10 @@
 import React from "react";
 
-const Header = (props) => {
+const Header = ({ cart }) => {
   return (
     <div className="header">
       <h1>My Store</h1>
-      <h2>Cart:{props.cart.length || 0}</h2>
+      <h2>Cart:{cart.length || 0}</h2>
     </div>
   );
 };

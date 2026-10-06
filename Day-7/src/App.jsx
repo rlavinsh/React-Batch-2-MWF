@@ -5,7 +5,7 @@ import Cart from "./components/Cart";
 const App = () => {
   const [cart, setCart] = useState([]);
   const addToCart = (product) => {
-    // console.log(product);
+    console.log(product);
     setCart([...cart, product]);
   };
 
