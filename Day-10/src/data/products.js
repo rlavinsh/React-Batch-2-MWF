@@ -33,3 +33,5 @@ const products = [
     productprice: 2000,
   },
 ];
+
+export default products;

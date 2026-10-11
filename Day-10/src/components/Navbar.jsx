@@ -17,6 +17,10 @@ const Navbar = () => {
           <NavLink className="navItem" to="/contact">
             contact
           </NavLink>
+
+          <NavLink className="navItem" to="/product">
+            products
+          </NavLink>
           <button
             className="login"
             onClick={() => {
