@@ -12,7 +12,7 @@ const App = () => {
   const notify = () => toast("All fields are required");
 
   function handleName(e) {
-    // console.log(e.target.value);
+    console.log(e.target.value);
 
     setName(e.target.value);
   }
