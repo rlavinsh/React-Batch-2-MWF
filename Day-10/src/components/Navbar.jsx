@@ -20,7 +20,7 @@ const Navbar = () => {
           <button
             className="login"
             onClick={() => {
-              navigate("/login");
+              navigate("/login", { state: { name: "Rahul" } });
               //   navigate(-1);
             }}
           >

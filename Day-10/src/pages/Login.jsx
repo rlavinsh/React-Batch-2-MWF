@@ -1,10 +1,13 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 const Login = () => {
+  const location = useLocation();
+  console.log(location.state.name);
+
   const navigate = useNavigate();
   return (
     <div>
-      <h1>Login Page</h1>
+      <h1>welcome {" " + location.state.name}</h1>
       <button
         className="login"
         onClick={() => {
