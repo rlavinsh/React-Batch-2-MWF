@@ -8,6 +8,20 @@ const App1 = () => {
     password: "",
   });
 
+  const user = {
+    firstName: "hello",
+    " last name": "world",
+  };
+  console.log(user.firstName);
+  console.log(user[" last name"]);
+
+  let a = [10, 20];
+  let b = a;
+  b.push(30);
+  let c = [...b];
+  c.push(40);
+  console.log(c);
+
   function handleChange(e) {
     setUserData({
       ...userdata,

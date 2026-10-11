@@ -50,11 +50,12 @@ const App = () => {
   }
   return (
     <div>
-      {/* <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <label htmlFor="">Name:</label>
         <input
           type="text"
           placeholder="Enter your Name"
+          // value="hello"
           value={name}
           onChange={handleName}
         />
@@ -83,7 +84,7 @@ const App = () => {
       <h1>Live Preview</h1>
       <h3>Name:{name}</h3>
       <h3>Email:{email}</h3>
-      <h3>Password:{password}</h3> */}
+      <h3>Password:{password}</h3>
       <App1 />
       <ToastContainer />
     </div>
